@@ -1,0 +1,25 @@
+[0.952s] Invoking command in '/home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/src/simulator': PYTHONPATH=/home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/install/simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulator build --build-base /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/build install --record /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/install.log --single-version-externally-managed install_data
+[1.227s] running egg_info
+[1.228s] writing ../../build/simulator/simulator.egg-info/PKG-INFO
+[1.228s] writing dependency_links to ../../build/simulator/simulator.egg-info/dependency_links.txt
+[1.228s] writing entry points to ../../build/simulator/simulator.egg-info/entry_points.txt
+[1.229s] writing requirements to ../../build/simulator/simulator.egg-info/requires.txt
+[1.229s] writing top-level names to ../../build/simulator/simulator.egg-info/top_level.txt
+[1.231s] reading manifest file '../../build/simulator/simulator.egg-info/SOURCES.txt'
+[1.231s] adding license file 'LICENSE'
+[1.232s] writing manifest file '../../build/simulator/simulator.egg-info/SOURCES.txt'
+[1.232s] running build
+[1.232s] running build_py
+[1.233s] copying simulator/kinematic_sim.py -> /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/build/lib/simulator
+[1.233s] running install
+[1.233s] running install_lib
+[1.234s] copying /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/build/lib/simulator/kinematic_sim.py -> /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/install/simulator/lib/python3.10/site-packages/simulator
+[1.234s] byte-compiling /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/install/simulator/lib/python3.10/site-packages/simulator/kinematic_sim.py to kinematic_sim.cpython-310.pyc
+[1.235s] running install_data
+[1.236s] running install_egg_info
+[1.239s] removing '/home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/install/simulator/lib/python3.10/site-packages/simulator-0.0.0-py3.10.egg-info' (and everything under it)
+[1.239s] Copying ../../build/simulator/simulator.egg-info to /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/install/simulator/lib/python3.10/site-packages/simulator-0.0.0-py3.10.egg-info
+[1.241s] running install_scripts
+[1.261s] Installing kinematic_sim script to /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/install/simulator/lib/simulator
+[1.261s] writing list of installed files to '/home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/install.log'
+[1.285s] Invoked command in '/home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/src/simulator' returned '0': PYTHONPATH=/home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/install/simulator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/simulator build --build-base /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/build install --record /home/paul/Documents/GitHub/WebVR-Teleop/teleop_ros_ws/build/simulator/install.log --single-version-externally-managed install_data

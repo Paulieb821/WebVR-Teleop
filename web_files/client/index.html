@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebVR Teleop System</title>
+        <script src='https://aframe.io/releases/1.2.0/aframe.min.js'></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+        <script src='script.js'></script>
+    </head>
+
+    <body>
+        <a-scene id="scene">
+            <!-- Camera with the VR controls -->
+            <a-entity id='camera' position='0 1.6 0' camera look-controls></a-entity>
+            <a-entity id='left_hand' oculus-touch-controls='hand: left'>
+                <a-sphere position="0 0 0" radius="0.01" color="white"></a-sphere>
+            </a-entity>
+            <a-entity id='right_hand' oculus-touch-controls='hand: right'>
+                <a-sphere position="0 0 0" radius="0.01" color="white"></a-sphere>
+            </a-entity>
+      
+            <!-- Ground plane and sky box-->
+            <a-plane position='0 0 0' rotation='-90 0 0' width='10' height='10' color='gray'></a-plane>
+            <a-sky color="#87CEEB"></a-sky>
+
+            <!-- Robot base frame -->
+            <a-sphere id="base_origin" position="0 0 0" radius="0.04" color="white"></a-sphere>
+            <a-cylinder id="base_x" position="0 0 0" rotation="0 0 90" height="0.3" radius="0.02" color="red"></a-cylinder>
+            <a-cylinder id="base_y" position="0 0 0" rotation="90 0 0" height="0.3" radius="0.02" color="green"></a-cylinder>
+            <a-cylinder id="base_z" position="0 0 0" rotation="0 0 0" height="0.3" radius="0.02" color="blue"></a-cylinder>
+
+            <!-- Robot end effector -->
+            <a-sphere id="endeff_pos" position="0 0 0" radius="0.03" color="red"></a-sphere>
+        </a-scene>
+    </body>
+</html>

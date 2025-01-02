@@ -1,0 +1,3 @@
+[console_scripts]
+kinematic_sim = simulator.kinematic_sim:main
+
